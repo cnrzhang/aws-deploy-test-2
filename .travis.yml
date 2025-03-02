@@ -7,7 +7,7 @@ deploy:
   region: "us-east-1"
   app: "aws-deploy-test-2"
   env: "aws-deploy-test-2-env"
-  bucket_name: "the-target-S3-bucket"
+  bucket_name: "elasticbeanstalk-us-east-1-054037135006"
 
 dist: focal
 language: python
