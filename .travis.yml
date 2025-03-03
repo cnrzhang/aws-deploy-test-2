@@ -18,8 +18,8 @@ after_script:
 
 deploy:
   provider: elasticbeanstalk
-  access_key_id: "AKIAQZFG5H2PIINDMNGA"
-  secret_access_key: "django-insecure-)5j4llcdl+=jnjy_k-qh@8qyr=v(t&)+tr#zbcuspl0%ddq2zx"
+  access_key_id: $AWS_ACCESS_ID
+  secret_access_key: $AWS_SECRET_KEY
   region: "us-east-1"
   app: "aws-deploy-test-2"
   env: "aws-deploy-test-2-env"
