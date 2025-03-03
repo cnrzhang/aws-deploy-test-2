@@ -26,4 +26,8 @@ deploy:
   app: "aws-deploy-test-2"
   env: "aws-deploy-test-2-env"
   bucket_name: "elasticbeanstalk-us-east-1-054037135006"
+  on:
+    repo: cnrzhang/aws-deploy-test-2
+    branch: main
+  skip_cleanup: 'true'
 
