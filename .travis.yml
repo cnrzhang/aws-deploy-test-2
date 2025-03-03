@@ -1,15 +1,3 @@
-deploy:
-  provider: elasticbeanstalk
-  access_key_id:
-    secure: "AKIAQZFG5H2PDJAHKNPS"
-  secret_access_key:
-    secure: "django-insecure-)5j4llcdl+=jnjy_k-qh@8qyr=v(t&)+tr#zbcuspl0%ddq2zx"
-  region: "us-east-1"
-  app: "aws-deploy-test-2"
-  env: "aws-deploy-test-2-env"
-  bucket_name: "elasticbeanstalk-us-east-1-054037135006"
-
-
 dist: focal
 language: python
 python:
@@ -28,3 +16,15 @@ script:
 
 after_script:
   - coveralls
+
+deploy:
+  provider: elasticbeanstalk
+  access_key_id:
+    secure: "AKIAQZFG5H2PDJAHKNPS"
+  secret_access_key:
+    secure: "django-insecure-)5j4llcdl+=jnjy_k-qh@8qyr=v(t&)+tr#zbcuspl0%ddq2zx"
+  region: "us-east-1"
+  app: "aws-deploy-test-2"
+  env: "aws-deploy-test-2-env"
+  bucket_name: "elasticbeanstalk-us-east-1-054037135006"
+
