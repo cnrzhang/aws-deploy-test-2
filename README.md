@@ -5,7 +5,7 @@
 
 ## Coverage 
 
-[![Coverage Status](https://coveralls.io/repos/github/cnrzhang/aws-deploy-test-2/badge.svg?branch=main&t=0tHMw7)](https://coveralls.io/github/cnrzhang/aws-deploy-test-2?branch=main)
+[![Coverage Status](https://coveralls.io/repos/github/cnrzhang/aws-deploy-test-2/badge.svg?branch=main)](https://coveralls.io/github/cnrzhang/aws-deploy-test-2?branch=main)
 
 
 ## Application URL
