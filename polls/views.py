@@ -1,11 +1,11 @@
 from django.db.models import F
-from django.http import HttpResponse, HttpResponseRedirect
 from django.shortcuts import render, get_object_or_404
 from django.urls import reverse
 from django.views import generic
 
 from .models import Question, Choice
 
+# flake8: noqa: E501
 
 class IndexView(generic.ListView):
     template_name = "polls/index.html"
